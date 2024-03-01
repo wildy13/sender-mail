@@ -1,0 +1,22 @@
+{
+  "name": "sender-mail",
+  "version": "1.0.0",
+  "description": "sender email",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [
+    "sender",
+    "email"
+  ],
+  "author": "Wildy Johanes Simanjuntak",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "nodemailer": "^6.9.10",
+    "nodemon": "^3.1.0"
+  }
+}
